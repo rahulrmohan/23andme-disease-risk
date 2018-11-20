@@ -33,7 +33,7 @@ html {
 }
 
 body {
-  background-color: #24a35a;
+  background-color:#182848;
 }
 
 p {
@@ -263,7 +263,6 @@ p {
   padding-top: 50px;
   color: #aaa;
   text-align: center;
-  content: 'loading...';
 }
 
 .ele {
@@ -841,3 +840,36 @@ p {
     transform: none;
   }
 }
+
+.custom-btn {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+/**** BTN No. 1 ****/
+.btn-1 {
+  border: 2px solid #3399ff;
+  color:  #fff;
+  margin-left: 729px;
+  margin-top: 500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+}
+.btn-1:hover {
+  background: #3399ff;
+  color: #fff;
+}
+.btn-1:active {
+  top: 2px;
+}
+
+
