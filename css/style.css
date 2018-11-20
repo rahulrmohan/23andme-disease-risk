@@ -7,17 +7,17 @@ html {
 }
 
 body {
-  background: #c1bdba;
+  background: #182848;
   font-family: 'Titillium Web', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #1ab188;
+  color: #ffbf80; /* color for forgot password link*/
   transition: .5s ease;
 }
 a:hover {
-  color: #179b77;
+  color: #ffbf80;
 }
 
 .form {
@@ -53,11 +53,11 @@ a:hover {
   transition: .5s ease;
 }
 .tab-group li a:hover {
-  background: #179b77;
+  background: #ffbf80; /* color for when you hover over buttons*/
   color: #ffffff;
 }
 .tab-group .active a {
-  background: #1ab188;
+  background: #ffb366; /* darker orange for active button*/
   color: #ffffff;
 }
 
