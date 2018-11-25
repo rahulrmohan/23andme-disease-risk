@@ -20,6 +20,12 @@ a:hover {
   color: #ffbf80;
 }
 
+.toplogo{
+  max-width: 300px;
+  margin-left: 970px;
+
+}
+
 .form {
   background: rgba(19, 35, 47, 0.9);
   padding: 40px;
